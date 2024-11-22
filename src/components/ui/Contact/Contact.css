@@ -96,7 +96,7 @@
 
     .contact .contact-img {
         position: relative;
-        width: 100%;
+        width: 100% !important;
     }
 
     .contact .contact-info {
@@ -105,16 +105,19 @@
     }
 
     .contact .contact-img img {
-        width: 100%;
+        width: 100% !important;
     }
 
     .contact-info p {
-        width: 100%;
+        width: 100% !important;
     }
 
     .contact .contact-info input {
         width: 80% !important;
     }
+    .contact .contact-info {
+        width: 90% !important;
+    } 
 }
 
 @media screen and (max-width:400px) {

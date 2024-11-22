@@ -6,62 +6,62 @@ export interface DestinationDataI {
 
 export const DestinationData: DestinationDataI[] = [
   {
-    img: "/images/destination1.png",
+    img: "/public/images/destination1.png",
     title: "Malaysia",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination2.png",
+    img: "/public/images/destination2.png",
     title: "Dubai",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination3.png",
+    img: "/public/images/destination3.png",
     title: "Greece",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination4.png",
+    img: "/public/images/destination4.png",
     title: "Singapore",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination1.png",
+    img: "/public/images/destination1.png",
     title: "Malaysia",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination2.png",
+    img: "/public/images/destination2.png",
     title: "Dubai",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination3.png",
+    img: "/public/images/destination3.png",
     title: "Greece",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination4.png",
+    img: "/public/images/destination4.png",
     title: "Singapore",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination1.png",
+    img: "/public/images/destination1.png",
     title: "Malaysia",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination2.png",
+    img: "/public/images/destination2.png",
     title: "Dubai",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination3.png",
+    img: "/public/images/destination3.png",
     title: "Greece",
     hours: "16 Tours",
   },
   {
-    img: "/images/destination4.png",
+    img: "/public/images/destination4.png",
     title: "Singapore",
     hours: "16 Tours",
   },
@@ -124,19 +124,19 @@ export interface TourDataI {
 
 export const TourData: TourDataI[] = [
   {
-    img: "/images/rome.png",
+    img: "/public/images/rome.png",
     title: "rome, italy",
     day: 10,
     price: "5.24K"
   },
   {
-    img: "/images/pakistan.png",
+    img: "/public/images/pakistan.png",
     title: "Lahore, pakistan",
     day: 6,
     price: "3.24K"
   },
   {
-    img: "/images/singapur.png",
+    img: "/public/images/singapur.png",
     title: "singapore",
     day: 6,
     price: "7.00K"
@@ -150,32 +150,32 @@ export interface PhotosI {
 }
 export const PhotosData: PhotosI[] = [
   {
-    img: '/images/photo1.png',
+    img: '/public/images/photo1.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    img: '/images/photo2.png',
+    img: '/public/images/photo2.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    img: '/images/photo3.png',
+    img: '/public/images/photo3.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    img: '/images/photo4.png',
+    img: '/public/images/photo4.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    img: '/images/photo5.png',
+    img: '/public/images/photo5.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    img: '/images/photo6.png',
+    img: '/public/images/photo6.png',
     title: "title",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },

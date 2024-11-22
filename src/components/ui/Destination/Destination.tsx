@@ -18,26 +18,26 @@ const Destination:React.FC<DestinationI> = () => {
   return (
     <>
       <div className="destination container-padding">
-        <div className={`destination-card card1`}>
+        <div className={`destination-card card1`} data-aos="fade-right">
           <h3>
             Malaysia
           </h3>
           <Button text="16 Tours" />
         </div>
         <div className="destination-right">
-          <div className={`destination-card card2`}>
+          <div className={`destination-card card2`} data-aos="fade-right">
             <h3>
               Dubai
             </h3>
             <Button text="16 Tours" />
           </div>
-          <div className={`destination-card card3`}>
+          <div className={`destination-card card3`} data-aos="fade-left">
             <h3>
               Greece
             </h3>
             <Button text="16 Tours" />
           </div>
-          <div className={`destination-card card4`}>
+          <div className={`destination-card card4`} data-aos="fade-up">
             <h3>
               Singapore
             </h3>

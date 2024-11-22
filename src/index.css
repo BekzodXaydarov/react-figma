@@ -24,6 +24,10 @@
   padding-right: 93px;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 @media screen and (max-width:650px) {
   .container-padding {
     padding-left: 40px;

@@ -1,6 +1,6 @@
 .hero {
   height: 800px;
-  background-image: url("/images/backgroundHero.png");
+  background-image: url("/public/images/backgroundHero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

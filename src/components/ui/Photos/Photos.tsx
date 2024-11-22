@@ -8,7 +8,7 @@ const Photos:React.FC<PhotoI> = () => {
         <div className='photo container-padding'>
             {
                 PhotosData.map((item, index) => (
-                    <div style={{backgroundImage:`url(${item.img})`}} key={index} className='photo-card'>
+                    <div style={{backgroundImage:`url(${item.img})`}} key={index} className='photo-card' data-aos="fade-up">
                        <h2>
                             {item.title}
                         </h2>

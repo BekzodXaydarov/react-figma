@@ -7,7 +7,7 @@ const Tour:React.FC<TourI> = () => {
   return (
     <div className="tour container-padding">
         {TourData.map((item,index)=>{
-            return <div key={index} className="tour-card">
+            return <div key={index} className="tour-card" data-aos="fade-up">
                 <img src={item.img} alt={item.img} />
                 <div className="tour-card-info">
                 <h2>{item.title}

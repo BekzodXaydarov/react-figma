@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarI> = () => {
   
   return (
     <nav className={`container-padding ${scroll ? "scroll-nav" : ""}`}>
-      <img src="/images/logo.png" alt="logo" />
+      <img src="/public/images/logo.png" alt="logo" />
       <ul className={`${active ? "active-nav" : ""}`}>
         <li>
           <a href="#">Home</a>
