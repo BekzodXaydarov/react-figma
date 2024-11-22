@@ -107,7 +107,7 @@ nav .nav-btns .nav-btn1:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3px;
-    width: 17px;
+    width: 30px !important;
     cursor: pointer;
   }
   .bars .bars-line {

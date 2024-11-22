@@ -1,127 +1,121 @@
 .contact {
-    height: 520px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: linear-gradient(90deg, var(--color2), var(--color3));
-    position: relative;
-    margin-top: 248px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(90deg, var(--color2), var(--color3));
+  position: relative;
+  margin-top: 248px;
 }
 
 .contact .contact-img {
-    height: 565px;
+  height: 565px;
 }
 
 .contact .contact-img img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .contact .contact-info {
-    width: 580px;
+  width: 580px;
 }
 
 .contact-info h1 {
-    font-family: "Work Sans", sans-serif;
-    font-size: 46px;
-    color: var(--color1);
+  font-family: "Work Sans", sans-serif;
+  font-size: 46px;
+  color: var(--color1);
 }
 
 .contact-info p {
-    margin-top: 26px;
-    color: var(--color1);
-    font-family: "Work Sans", sans-serif;
+  margin-top: 26px;
+  color: var(--color1);
+  font-family: "Work Sans", sans-serif;
 }
 
 .contact .contact-info form {
-    width: 100%;
-    height: 74px;
-    margin-top: 26px;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: 74px;
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
 }
 
 .contact .contact-info form input {
-    width: 90%;
-    height: 100%;
-    border: none;
-    outline: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: var(--color1);
-    font-family: "Work Sans", sans-serif;
-    background-color: rgb(255, 255, 255, 0.2);
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: var(--color1);
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(255, 255, 255, 0.2);
 }
 
 .contact .contact-info form input::placeholder {
-    color: white;
+  color: white;
 }
 
 .contact .contact-info form button {
-    width: 80px;
-    height: 74px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
+  width: 80px;
+  height: 74px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
 
 .contact form img {
-    transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .contact .contact-info form button:hover img {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
-@media screen and (max-width:900px) {
-    .contact .contact-img img {
-        width: 50% !important;
-    }
+@media screen and (max-width: 900px) {
+  .contact {
+    height: 100%;
+    flex-direction: column !important;
+    align-items: start;
+    padding: 20px;
 
-    .contact .contact-info {
-        width: 30% !important;
-    }
+  }
 }
 
-@media screen and (max-width:500px) {
-    .contact {
-        height: 100%;
-        flex-direction: column;
-        align-items: start;
-        padding: 20px;
-    }
+@media screen and (max-width: 500px) {
+  .contact .contact-img {
+    position: relative;
+    width: 100% !important;
 
-    .contact .contact-img {
-        position: relative;
-        width: 100% !important;
-    }
+  }
 
-    .contact .contact-info {
-        width: 100%;
-        margin-top: 20px;
-    }
+  .contact .contact-info {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    .contact .contact-img img {
-        width: 100% !important;
-    }
+  .contact .contact-img img {
+    width: 100% !important;
+  }
 
-    .contact-info p {
-        width: 100% !important;
-    }
+  .contact-info p {
+    width: 100% !important;
+  }
 
-    .contact .contact-info input {
-        width: 80% !important;
-    }
-    .contact .contact-info {
-        width: 90% !important;
-    } 
+  .contact .contact-info input {
+    width: 80% !important;
+  }
+  .contact .contact-info {
+    width: 90% !important;
+  }
 }
 
-@media screen and (max-width:400px) {
-    .contact .contact-info h1 {
-        font-size: 27px;
-    }
+@media screen and (max-width: 400px) {
+  .contact .contact-info h1 {
+    font-size: 27px;
+  }
 }
