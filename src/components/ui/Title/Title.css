@@ -13,9 +13,10 @@
   color: var(--color5);
   font-family: "Water Sans", sans-serif;
   font-size: 64px;
-  font-weight: 100;
+  font-weight: 400 !important;
   letter-spacing: 3px;
   margin-top: 18px;
+  text-transform: uppercase;
 }
 .title p {
   color: var(--color5);
@@ -23,4 +24,35 @@
   width: 700px;
   margin: 0 auto;
   margin-top: 18px;
+}
+@media screen and (max-width:1000px) {
+  .title p {
+    width: 90%;
+  }
+}
+@media screen and (max-width:500px) {
+  .title h3 {
+    font-size: 30px;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .title h3 {
+    font-size: 27px;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .title h3 {
+    font-size: 20px;
+  }
+  .title h1 {
+    font-size: 23px;
+  }
 }

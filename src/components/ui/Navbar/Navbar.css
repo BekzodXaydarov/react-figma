@@ -6,6 +6,7 @@ nav {
   width: 100%;
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
 }
 
 nav img {
@@ -77,7 +78,7 @@ nav .nav-btns .nav-btn1:hover {
     position: fixed;
     align-items: center;
     flex-direction: column;
-    top: 50px;
+    top: 100px;
     right: -100%;
     width: 30%;
     padding: 20px;
@@ -88,7 +89,7 @@ nav .nav-btns .nav-btn1:hover {
     position: fixed;
     align-items: center;
     flex-direction: column;
-    top: 275px;
+    top: 325px;
     right: -100%;
     width: 30%;
     background-color: var(--color1);

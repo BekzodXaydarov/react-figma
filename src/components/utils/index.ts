@@ -66,3 +66,117 @@ export const DestinationData: DestinationDataI[] = [
     hours: "16 Tours",
   },
 ];
+
+
+export interface ActivityI {
+  img: string
+  img2?: string
+  title: string
+  description: string
+}
+
+export const ActivityData: ActivityI[] = [
+  {
+    img: "/svgs/activity1.svg",
+    img2: "/svgs/activityc1.svg",
+    title: "Adventure",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    img: "/svgs/activity2.svg",
+    img2: "/svgs/activityc2.svg",
+    title: "Camping",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    img: "/svgs/activity3.svg",
+    img2: "/svgs/activityc3.svg",
+    title: "Adventure",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    img: "/svgs/activity4.svg",
+    img2: "/svgs/activityc4.svg",
+    title: "Camping",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    img: "/svgs/activity5.svg",
+    img2: "/svgs/activityc5.svg",
+    title: "Adventure",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    img: "/svgs/activity6.svg",
+    img2: "/svgs/activityc6.svg",
+    title: "Camping",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+]
+
+
+export interface TourDataI {
+  img: string
+  title: string
+  day: number
+  price: string
+}
+
+export const TourData: TourDataI[] = [
+  {
+    img: "/images/rome.png",
+    title: "rome, italy",
+    day: 10,
+    price: "5.24K"
+  },
+  {
+    img: "/images/pakistan.png",
+    title: "Lahore, pakistan",
+    day: 6,
+    price: "3.24K"
+  },
+  {
+    img: "/images/singapur.png",
+    title: "singapore",
+    day: 6,
+    price: "7.00K"
+  },
+]
+
+export interface PhotosI {
+  img: string
+  title: string
+  description: string
+}
+export const PhotosData: PhotosI[] = [
+  {
+    img: '/images/photo1.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    img: '/images/photo2.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    img: '/images/photo3.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    img: '/images/photo4.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    img: '/images/photo5.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    img: '/images/photo6.png',
+    title: "title",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+]

@@ -1,7 +1,20 @@
 .destination {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
     gap: 20px;
+}
+.destination-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+.destination-footer .custom-btn {
+    font-weight: 400;
+    width: 122px;
+    height: 54px;
 }
 .destination div {
     background-repeat: no-repeat;
@@ -9,3 +22,69 @@
     background-position: center;
 }
 
+.destination .destination-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.destination .destination-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.destination .destination-card h3 {
+    color: white;
+    font-size: 46px;
+    font-family: "Water brush",sans-serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.destination .card1 {
+    background-image: url("/public/images/destination1.png");
+    width: 580px;
+    height: 626px;
+}
+.destination .card2 {
+    width: 280px;
+    height: 306px;
+    background-image: url("/public/images/destination2.png");
+}
+.destination .card3 {
+    width: 280px;
+    height: 306px;
+    background-image: url("/public/images/destination3.png");
+}
+.destination .card4 {
+    width: 580px;
+    height: 306px;
+    background-image: url("/public/images/destination4.png");
+    grid-column: span 2;
+}
+
+@media screen and (max-width:1000px) {
+    .destination {
+        flex-direction: column !important;
+    }
+    .destination-right {
+        width: 100%;
+    }
+    .destination :where(.card1,.card2,.card3,.card4){
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .destination {
+        padding: 20px !important;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:250px) {
+    .destination-right {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}

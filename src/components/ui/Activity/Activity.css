@@ -1,0 +1,91 @@
+.activity {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(378px, auto));
+    gap: 36px;
+}
+
+.activity .activity-card {
+    width: 378px;
+    height: 412px;
+    background: var(--color6);
+    padding-top: 65px;
+    padding-bottom: 38px;
+    padding-left: 33px;
+    padding-right: 33px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.activity .activity-card:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease-in;
+    background: linear-gradient(90deg, var(--color2), var(--color3));
+}
+
+.activity .activity-card:hover :where(h1, p) {
+    color: white;
+}
+
+.activity .activity-card h1 {
+    margin-top: 38px;
+    color: var(--color4);
+    font-family: "Work Sans", sans-serif;
+}
+
+.activity .activity-card p {
+    font-family: "Work Sans", sans-serif;
+    color: var(--color4);
+}
+
+.activity .activity-card .card-img1 {
+    display: none;
+}
+
+.activity .activity-card:hover .card-img1 {
+    display: inline-block;
+}
+
+.activity .activity-card:hover .card-img2 {
+    display: none;
+}
+
+@media screen and (max-width:970px) {
+    .activity {
+        grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+        width: 100% !important;
+    }
+    .activity-card {
+        width: 100% !important;
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .activity .activity-card :where(.card-img1,.card-img2){
+        width: 100%;
+    }
+    .activity {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 100% !important;
+        padding-left: 20px;
+    }
+    .activity-card {
+        max-width: 90%;
+        height: 100% !important;
+    }
+    .activity-card h1 {
+        font-size: 25px;
+    }
+}
+
+
+
+@media screen and (max-width:300px) {
+    .activity {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    }
+}
+

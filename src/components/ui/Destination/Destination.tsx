@@ -1,18 +1,9 @@
-import { useMemo, useState } from "react";
+import Button from "../Button/Button";
 import "./Destination.css";
-import { DestinationData } from "../../utils";
 
-const DestinationState = (n: string) => {
-  if (n === "state1") {
-    return "card1";
-  } else if (n === "state2" || n === "state3") {
-    return "card2";
-  } else if (n === "state4") {
-    return "card3";
-  }
-};
+export interface DestinationI {}
 
-const Destination = () => {
+const Destination:React.FC<DestinationI> = () => {
   //   const [size, setSize] = useState<number>(4);
   //   const data = useMemo(() => {
   //     let count = 0;
@@ -27,7 +18,35 @@ const Destination = () => {
   return (
     <>
       <div className="destination container-padding">
-        <div className={`destination-card`}></div>
+        <div className={`destination-card card1`}>
+          <h3>
+            Malaysia
+          </h3>
+          <Button text="16 Tours" />
+        </div>
+        <div className="destination-right">
+          <div className={`destination-card card2`}>
+            <h3>
+              Dubai
+            </h3>
+            <Button text="16 Tours" />
+          </div>
+          <div className={`destination-card card3`}>
+            <h3>
+              Greece
+            </h3>
+            <Button text="16 Tours" />
+          </div>
+          <div className={`destination-card card4`}>
+            <h3>
+              Singapore
+            </h3>
+            <Button text="16 Tours" />
+          </div>
+        </div>
+      </div>
+      <div className="destination-footer">
+      <Button text="View More" />
       </div>
     </>
   );

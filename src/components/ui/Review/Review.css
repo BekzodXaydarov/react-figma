@@ -1,0 +1,22 @@
+.review {
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+}
+
+.review .review-text {
+    height: 192px;
+    background: linear-gradient(90deg, var(--color2),var(--color3));
+    color: var(--color1);
+    font-family: "Works",sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 38px;
+    padding-left: 37px;
+    padding-right: 37px;
+    text-align: center;
+}
+.review .review-text img {
+    position: absolute;
+    top: -30px;
+}
