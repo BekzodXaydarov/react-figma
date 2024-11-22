@@ -1,0 +1,11 @@
+.destination {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.destination div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

@@ -1,0 +1,109 @@
+.hero {
+  height: 800px;
+  background-image: url("/images/backgroundHero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 0 400px 1000px rgba(0, 0, 0, 0.2);
+}
+.hero .hero-info {
+  width: 580px;
+}
+.hero .hero-info .hero-info-text {
+  color: var(--color1);
+  font-size: 48px;
+  font-family: "Water brush", sans-serif;
+  font-weight: 400;
+}
+.hero .hero-info .hero-info-title {
+  color: var(--color1);
+  font-size: 86px;
+  font-family: "Water Sans", sans-serif;
+  margin-top: 16px;
+}
+.hero .hero-info .hero-info-description {
+  color: var(--color1);
+  font-family: "Water Sans", sans-serif;
+  margin-top: 16px;
+  width: 80%;
+}
+
+.hero .hero-info .hero-info-time {
+  margin-top: 48px;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 22px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hero-info-time .hero-info-location,
+.hero-info-time .hero-info-date {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.hero-info-time .hero-info-time-text span {
+  color: var(--color1);
+  font-family: "Water Sans", sans-serif;
+}
+.hero-info-time .hero-info-time-text h4 {
+  font-family: "Water Sans", sans-serif;
+  color: var(--color1);
+  margin-top: 2px;
+  font-size: 20px;
+}
+.hero-info-time .line {
+  height: 24px;
+  width: 2px;
+  background-color: var(--color1);
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    padding-top: 30px;
+  }
+  .hero .hero-info .hero-info-text {
+    font-size: 30px;
+  }
+  .hero .hero-info .hero-info-title {
+    font-size: 60px;
+  }
+  .hero-info-time .hero-info-time-text h4 {
+    font-size: 18px;
+  }
+  .hero .hero-info .custom-btn {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .hero-info-time .hero-info-location,
+  .hero-info-time .hero-info-date {
+    gap: 5px;
+  }
+  .hero .hero-info .hero-info-time {
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    gap: 15px;
+  }
+  .hero-info-time .line {
+    width: 100%;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero .hero-info .hero-info-title {
+    font-size: 45px;
+  }
+  .hero .hero-info .hero-info-text {
+    font-size: 25px;
+  }
+}

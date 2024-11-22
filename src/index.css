@@ -6,8 +6,30 @@
   list-style: none;
 }
 
+:root {
+  --color1: white;
+  --color2: #CD1A40;
+  --color3: #FF803C;
+  --color4:#999999;
+  --color5:#1E1E1E;
+}
 
-body {
-  max-width: 1440px;
-  margin: 0 auto;
+
+
+
+.container-padding {
+  padding-left: 93px;
+  padding-right: 93px;
+}
+@media screen and (max-width:650px) {
+  .container-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width:500px) {
+  .container-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

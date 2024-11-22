@@ -1,10 +1,14 @@
+import { Destination, Hero, Navbar, Title } from "./components/ui";
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+      <Title text="Choose your" title="Destination" />
+      <Destination />
+    </>
+  );
+};
 
-export default App
+export default App;
