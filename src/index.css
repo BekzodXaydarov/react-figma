@@ -30,12 +30,25 @@
   flex-direction: column;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--color5) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color2) !important;
+}
 
 
 @media screen and (max-width:650px) {
   .container-padding {
     padding-left: 40px;
     padding-right: 40px;
+  }
+  #root {
+    overflow-x: hidden !important;
   }
 }
 
@@ -50,8 +63,5 @@
   .container-padding {
     padding-left: 5px;
     padding-right: 5px;
-  }
-  #root {
-    overflow-x: hidden !important;
   }
 }

@@ -30,7 +30,7 @@ nav ul li a::before {
   content: "";
   position: absolute;
   width: 0%;
-  height: 1px;
+  height: 2px;
   top: 18px;
   background-color: var(--color1);
   transition: all 0.4s ease-in-out;
@@ -71,6 +71,9 @@ nav .nav-btns .nav-btn1:hover {
   z-index: 99;
 }
 @media screen and (max-width: 1150px) {
+  nav {
+    height: 50px;
+  }
   nav ul {
     gap: 15px;
   }
@@ -81,7 +84,7 @@ nav .nav-btns .nav-btn1:hover {
     position: fixed;
     align-items: center;
     flex-direction: column;
-    top: 100px;
+    top: 50px;
     right: -100%;
     width: 30%;
     padding: 20px;
@@ -92,7 +95,7 @@ nav .nav-btns .nav-btn1:hover {
     position: fixed;
     align-items: center;
     flex-direction: column;
-    top: 325px;
+    top: 270px;
     right: -100%;
     width: 30%;
     background-color: var(--color1);
@@ -125,7 +128,7 @@ nav .nav-btns .nav-btn1:hover {
     transform: rotate(50deg) translateX(4px);
   }
   .active-bars .bars-line:nth-child(3) {
-    transform: rotate(-50deg) translateX(3px);
+    transform: rotate(-50deg) translateX(4px);
   }
 }
 

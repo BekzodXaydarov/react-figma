@@ -73,7 +73,10 @@
     }
     .activity-card {
         max-width: 90%;
-        height: 100% !important;
+        height: 300px;
+    }
+    .activity-card img {
+        width: 150px !important;
     }
     .activity-card h1 {
         font-size: 25px;
@@ -85,7 +88,6 @@
 @media screen and (max-width:300px) {
     .activity {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-
     }
 }
 
