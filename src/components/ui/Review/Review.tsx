@@ -15,21 +15,21 @@ const Review: React.FC<ReviewI> = () => {
         essentially unchanged. It was popularised in the 1960s.....
       </p>
       <div className="review-img">
-        <img src="/public/images/img1.png" alt="" data-aos="fade-down" />
-        <img src="/public/images/img2.png" alt="" data-aos="fade-down" />
-        <img src="/public/images/img3.png" alt="" data-aos="fade-down" />
+        <img src="/images/img1.png" alt="" data-aos="fade-down" />
+        <img src="/images/img2.png" alt="" data-aos="fade-down" />
+        <img src="/images/img3.png" alt="" data-aos="fade-down" />
         <div
           style={{ display: "flex", alignItems: "center", gap: "20px" }}
           data-aos="fade-down"
         >
-          <img src="/public/images/img4.png" alt="" />
+          <img src="/images/img4.png" alt="" />
           <h1>
             Scarlett Thomas
             <span>Singapore</span>
           </h1>
         </div>
-        <img src="/public/images/img5.png" alt="" data-aos="fade-down" />
-        <img src="/public/images/img6.png" alt="" data-aos="fade-down" />
+        <img src="/images/img5.png" alt="" data-aos="fade-down" />
+        <img src="/images/img6.png" alt="" data-aos="fade-down" />
       </div>
     </div>
   );

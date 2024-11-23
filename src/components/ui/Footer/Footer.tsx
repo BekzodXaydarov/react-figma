@@ -1,8 +1,8 @@
 import "./Footer.css"
 
-export interface FooterI {}
+export interface FooterI { }
 
-const Footer:React.FC<FooterI> = () => {
+const Footer: React.FC<FooterI> = () => {
   return (
     <footer className="container-padding">
       <div className="footer-section">
@@ -57,23 +57,23 @@ const Footer:React.FC<FooterI> = () => {
         </li>
       </ul>
       <ul>
-        <li className="list-title" data-aos="fade-right">Contact Us</li>
-        <li data-aos="fade-right">
+        <li className="list-title">Contact Us</li>
+        <li>
           <p>
             Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016
           </p>
         </li>
-        <li data-aos="fade-right">
+        <li>
           <p>
             +1 202-918-2132
           </p>
         </li>
-        <li data-aos="fade-right">
+        <li>
           <p>
             listeetravel@mail.com
           </p>
         </li>
-        <li data-aos="fade-right">
+        <li>
           <p>
             www.listeetravel.com
           </p>

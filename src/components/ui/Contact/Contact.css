@@ -82,25 +82,23 @@
     flex-direction: column !important;
     align-items: start;
     padding: 20px;
-
+  }
+  .contact .contact-info {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contact .contact-img img {
+    width: 100% !important;
   }
 }
 
 @media screen and (max-width: 500px) {
   .contact .contact-img {
     position: relative;
-    width: 100% !important;
+    width: 80% !important;
 
   }
 
-  .contact .contact-info {
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .contact .contact-img img {
-    width: 100% !important;
-  }
 
   .contact-info p {
     width: 100% !important;

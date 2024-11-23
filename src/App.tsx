@@ -11,8 +11,8 @@ import {
   Title,
   Tour,
 } from "./components/ui";
-import * as AOS from "aos";
 import "aos/dist/aos.css";
+import AOS from 'aos'
 
 const App = () => {
   useEffect(() => {

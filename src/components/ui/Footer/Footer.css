@@ -1,5 +1,5 @@
 footer {
-    height: 398px;
+    height: 430px;
     background: url('/public/images/backgroundFooter.png') no-repeat center center/cover;
     padding-top: 70px;
     padding-bottom: 40px;
@@ -94,7 +94,7 @@ footer ul li p {
 @media screen and (max-width:500px) {
     footer {
         width: 100%;
-        padding: 50px;
+        padding: 50px !important;
     }
 
     ul li p {
@@ -117,7 +117,6 @@ footer ul li p {
 
 @media screen and (max-width:300px) {
 
-
     .footer-section h1 {
         font-size: 30px;
     }
@@ -136,7 +135,6 @@ footer ul li p {
 }
 
 @media screen and (max-width:200px) {
-
     .footer-section {
         width: 56% !important;
     }

@@ -9,7 +9,7 @@ const Contact: React.FC<ContactI> = () => {
     return (
         <div className="contact">
             <div className="contact-img" >
-                <img src="/public/images/contactImg.png" alt="" data-aos="fade-right" />
+                <img src="/images/contactImg.png" alt="" data-aos="fade-right" />
             </div>
             <div className="contact-info">
                 <h1 data-aos="fade-left">Get Our Monthly

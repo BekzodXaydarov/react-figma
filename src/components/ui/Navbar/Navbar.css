@@ -130,6 +130,10 @@ nav .nav-btns .nav-btn1:hover {
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
   nav ul,
   nav .nav-btns {
     width: 50%;
