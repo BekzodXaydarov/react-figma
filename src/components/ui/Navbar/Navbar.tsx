@@ -1,36 +1,57 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import Button from "../Button/Button";
+import { Link } from "react-scroll";
 
-export interface NavbarI {}
+export interface NavbarI {
+  active: boolean;
+  setActive: (active: boolean) => void;
+}
 
-const Navbar: React.FC<NavbarI> = () => {
-  const [active, setActive] = useState<boolean>(false);
-  const [scroll, setScroll] = useState<boolean>(false);
+const Navbar: React.FC<NavbarI> = ({ active, setActive }) => {
   const hanldeBars = () => {
     setActive(!active);
   };
-  useEffect(() => {
-    if(scrollY == 0){
-      setScroll(true)
-    }
-  }, [scrollY,scroll]);
-  
+
   return (
-    <nav className={`container-padding ${scroll ? "scroll-nav" : ""}`}>
+    <nav className={`container-padding`}>
       <h1 className="logo">Listee Travel</h1>
       <ul className={`${active ? "active-nav" : ""}`}>
         <li>
-          <a href="#">Home</a>
+          <Link
+            to="home"
+            onClick={hanldeBars}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li>
           <a href="#">About Us</a>
         </li>
         <li>
-          <a href="#">Destinations</a>
+          <Link
+            to="destinations"
+            onClick={hanldeBars}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Destinations
+          </Link>
         </li>
         <li>
-          <a href="#">Tours</a>
+        <Link
+            to="tours"
+            onClick={hanldeBars}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Tours
+          </Link>
         </li>
         <li>
           <a href="#">Shop</a>

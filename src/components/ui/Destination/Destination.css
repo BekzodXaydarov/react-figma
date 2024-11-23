@@ -47,7 +47,7 @@
 }
 
 .destination .card1 {
-    background-image: url("/public/images/destination1.png");
+    background-image: url("/images/destination1.png");
     width: 580px;
     height: 626px;
 }
@@ -55,19 +55,19 @@
 .destination .card2 {
     width: 280px;
     height: 306px;
-    background-image: url("/public/images/destination2.png");
+    background-image: url("/images/destination2.png");
 }
 
 .destination .card3 {
     width: 280px;
     height: 306px;
-    background-image: url("/public/images/destination3.png");
+    background-image: url("/images/destination3.png");
 }
 
 .destination .card4 {
     width: 580px;
     height: 306px;
-    background-image: url("/public/images/destination4.png");
+    background-image: url("/images/destination4.png");
     grid-column: span 2;
 }
 

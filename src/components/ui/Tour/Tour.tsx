@@ -5,7 +5,7 @@ export interface TourI {}
 
 const Tour:React.FC<TourI> = () => {
   return (
-    <div className="tour container-padding">
+    <div className="tour container-padding" id="tours">
         {TourData.map((item,index)=>{
             return <div key={index} className="tour-card" data-aos="fade-up">
                 <img src={item.img} alt={item.img} />

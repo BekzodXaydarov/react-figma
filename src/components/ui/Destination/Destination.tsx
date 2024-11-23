@@ -17,7 +17,7 @@ const Destination:React.FC<DestinationI> = () => {
   //   }, [DestinationData]);
   return (
     <>
-      <div className="destination container-padding">
+      <div className="destination container-padding" id="destinations">
         <div className={`destination-card card1`} data-aos="fade-right">
           <h3>
             Malaysia

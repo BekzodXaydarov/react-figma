@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   Activity,
   Contact,
@@ -12,18 +12,24 @@ import {
   Tour,
 } from "./components/ui";
 import "aos/dist/aos.css";
-import AOS from 'aos'
+import AOS from "aos";
 
 const App = () => {
+  const [active, setActive] = useState<boolean>(false);
   useEffect(() => {
     AOS.init({
-      duration:500,
+      duration: 500,
       easing: "ease-in-out",
     });
   }, []);
+  const hanldeBars = () => {
+    if (active) {
+      setActive(false);
+    }
+  };
   return (
-    <>
-      <Navbar />
+    <div onClick={hanldeBars}>
+      <Navbar active={active} setActive={setActive} />
       <Hero />
       <Title text="Choose your" title="Destination" />
       <Destination />
@@ -56,7 +62,7 @@ const App = () => {
       <Review />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 
