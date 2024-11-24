@@ -5,7 +5,7 @@ export interface PhotoI {}
 
 const Photos:React.FC<PhotoI> = () => {
     return (
-        <div className='photo container-padding'>
+        <section className='photo container-padding'>
             {
                 PhotosData.map((item, index) => (
                     <div style={{backgroundImage:`url(${item.img})`}} key={index} className='photo-card' data-aos="fade-up">
@@ -18,7 +18,7 @@ const Photos:React.FC<PhotoI> = () => {
                     </div>
                 ))
             }
-        </div>
+        </section>
     )
 }
 

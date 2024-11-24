@@ -7,7 +7,7 @@ const Contact: React.FC<ContactI> = () => {
         e.preventDefault()
     }
     return (
-        <div className="contact">
+        <section className="contact">
             <div className="contact-img" >
                 <img src="/images/contactImg.png" alt="" data-aos="fade-right" />
             </div>
@@ -16,10 +16,10 @@ const Contact: React.FC<ContactI> = () => {
                     Newsletter</h1>
                 <p data-aos="fade-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                 <form onSubmit={handleSubmit} data-aos="fade-left">
-                    <input type="text" placeholder="Input your emaill address in here" /> <button type="submit"> <img src="/svgs/arrow.svg" alt="" /> </button>
+                    <input type="text" placeholder="Input your emaill address in here" /> <button type="submit"> <img src="/svgs/arrow.svg" alt="img" /> </button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }
 

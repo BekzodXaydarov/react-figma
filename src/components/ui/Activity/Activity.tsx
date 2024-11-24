@@ -5,7 +5,7 @@ export interface ActivityI {}
 
 const Activity:React.FC<ActivityI> = () => {
     return (
-        <div className="activity container-padding">
+        <section className="activity container-padding">
             {
                 ActivityData.map((item, index) => (
                     <div className="activity-card" key={index} data-aos="fade-up">
@@ -16,7 +16,7 @@ const Activity:React.FC<ActivityI> = () => {
                     </div>
                 ))
             }
-        </div>
+        </section>
     )
 }
 

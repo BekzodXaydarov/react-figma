@@ -4,7 +4,7 @@ import Contact from "./Contact/Contact";
 import Destination from "./Destination/Destination";
 import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Header/Header";
 import Photos from "./Photos/Photos";
 import Review from "./Review/Review";
 import Title from "./Title/Title";
